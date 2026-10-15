@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "titles": [
+    {
+      "type": "movie",
+      "tmdbId": 10378,
+      "title": "Big Buck Bunny",
+      "year": 2008,
+      "license": "https://creativecommons.org/licenses/by/3.0/",
+      "credit": "(c) copyright 2008, Blender Foundation / www.bigbuckbunny.org",
+      "permissionSource": "https://peach.blender.org/about/",
+      "variants": [
+        {
+          "id": "bbb-720p", "quality": "720p", "format": "MOV",
+          "sources": [{"kind":"direct","provider":"Blender","url":"https://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_720p_h264.mov"}]
+        },
+        {
+          "id": "bbb-1080p", "quality": "1080p", "format": "MOV",
+          "sources": [{"kind":"direct","provider":"Blender","url":"https://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_1080p_h264.mov"}]
+        },
+        {
+          "id": "bbb-archive", "quality": "Source", "format": "MP4",
+          "sources": [{"kind":"archive","provider":"Internet Archive","identifier":"BigBuckBunny_328","filename":"BigBuckBunny_512kb.mp4"}]
+        },
+        {
+          "id": "bbb-torrent", "quality": "Source", "format": "MP4",
+          "sources": [{"kind":"torrent","provider":"WebTorrent open movie","url":"https://webtorrent.io/torrents/big-buck-bunny.torrent"}]
+        }
+      ]
+    }
+  ]
+}

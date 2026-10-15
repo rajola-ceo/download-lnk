@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: download-lnk
+    runtime: node
+    buildCommand: npm install
+    startCommand: node server.mjs
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PUBLIC_URL
+        value: https://download-lnk.onrender.com
+      - key: CLIENT_ORIGINS
+        value: https://vidr00m.netlify.app,https://rajola-ceo.github.io
+      - key: ALLOWED_SOURCE_HOSTS
+        value: download.blender.org,webtorrent.io,archive.org,*.archive.org
+      - key: ENABLE_TORRENTS
+        value: "true"

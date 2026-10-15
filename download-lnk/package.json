@@ -1,0 +1,13 @@
+{
+  "name": "download-lnk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "24.x" },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check server.mjs && node --check lib/net.mjs && node --check lib/service.mjs && node --check lib/torrent.mjs"
+  },
+  "dependencies": { "webtorrent": "3.0.21" }
+}
